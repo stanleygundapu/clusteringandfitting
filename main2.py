@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 from scipy.optimize import curve_fit
 from scipy import stats
-from sklearn.metrics import silhouette_score
+from sklearn.metrics import silhouette_score 
 
 def read_clean_transpose_data(file_path):
     """
